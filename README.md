@@ -24,11 +24,37 @@ Expo 는 XCode, Android Studio 같은 모바일 개발 툴 없이 모바일 개�
 
 ```
 npm install -g expo-cli
-
+```
+```
 expo init AwesomeProject
-
+```
+```
 cd AwesomeProject
 npm start # you can also use: expo start
 ```
 
 신기하게도, `$ expo init {PROJECT}` 를 실행하면 CLI 를 통해 여러 옵션을 선택할 수 있고 이것이 반영된 예제 프로젝트가 생성된다.
+Xcode 와 같은 툴이 없어도 시뮬에서 실행이 가능하고, node console 에서 QR 코드를 통해 디바이스에서 실행도 가능하다.
+
+### 2) React Native CLI Quickstart
+모바일 개발툴과 함께 RN 을 개발할 수 있는 일반적인 방법.
+
+아래 명령어들을 순서대로 실행한다. 이 때 발견된 문제는 없었다.
+
+```
+brew install yarn
+brew install node
+brew install watchman
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8
+```
+```
+pm install -g react-native-cli
+```
+```
+XCode > Preferences > Location > Command Line Tools(DropBox) > 가장 최신 버전으로 선택 & 설치
+```
+```
+react-native init ReactNativeCLI
+```
+위 명령어의 결과 `command not found: react-native` 에러가 발생하였다.
