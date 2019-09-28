@@ -65,5 +65,5 @@ react-native init ReactNativeCLI
 ```
 cd ReactNativeCLI && react-native run-ios
 ```
-명령으로 앱이 정상 실행되는것을 확인할 수 있다. (위 스핏의 결과와 동일한 에러가 발생한다면 npx 를 붙여서 run)
+명령으로 앱이 정상 실행되는것을 확인할 수 있다. (위 스핏의 결과와 동일한 에러가 발생한다면 npx 를 붙여서 run) <br>
 이전 Realm 가이드 시도와는 달리 Error 없이 앱이 실행되었다 (감동 ^_ㅠ..)
