@@ -57,4 +57,6 @@ XCode > Preferences > Location > Command Line Tools(DropBox) > 가장 최신 버
 ```
 react-native init ReactNativeCLI
 ```
-위 명령어의 결과 `command not found: react-native` 에러가 발생하였다.
+> 위 명령어의 결과 `command not found: react-native` 에러가 발생하였다. <br>
+> `$ export PATH=$HOME/.nodenv/versions/10.10.0/bin:$PATH` 을 입력한 후
+> `$ npx react-native init ReactNativeCLI` 처럼 npx 를 사용해 init 에 성공할 수 있다.
